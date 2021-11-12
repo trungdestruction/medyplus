@@ -134,6 +134,44 @@
             top: 0;
             letter-spacing: 0.01em;
         }
+        .slide-selling {
+            .slick-prev {
+                left: auto;
+                top: -80px;
+                right: 50px;
+                z-index: 1;
+                &:hover {
+                    &::before {
+                        color: @main-color;
+                    }
+                }
+                &::before {
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    content: '\f053';
+                    font-size: 31px;
+                    color: #cfcfcf;
+                    .transition(all, .5s);
+                }
+            }
+            .slick-next {
+                right: 0;
+                top: -80px;
+                &:hover {
+                    &::before {
+                        color: @main-color;
+                    }
+                }
+                &::before {
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    content: '\f054';
+                    font-size: 31px;
+                    color: #cfcfcf;
+                    .transition(all, .5s);
+                }
+            }
+        }
         &-list {
             margin: -11px 0;
         }
