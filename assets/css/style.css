@@ -639,8 +639,8 @@ body {
   font-size: 14px;
   color: #000;
   letter-spacing: 0.02em;
-  line-height: 23px;
-  padding-top: 10px;
+  line-height: 22px;
+  padding-top: 17px;
   padding-bottom: 6px;
 }
 #page-main .top-selling-item .content .cost {
@@ -651,6 +651,59 @@ body {
   color: #696969;
   text-decoration: line-through;
   padding-right: 12px;
+}
+#page-main .news {
+  background-image: url('/assets/img/news-bg.jpg');
+  margin-top: 40px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+#page-main .news-hot {
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: 0.01em;
+  color: #ebebeb;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+#page-main .news-latest {
+  font-size: 42px;
+  color: #000;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+#page-main .news-item {
+  width: calc(4 * 100% / 12);
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 15px 0;
+  padding-top: 45px;
+}
+#page-main .news-item img {
+  width: 100%;
+}
+#page-main .news-item .content {
+  padding-top: 16px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
+#page-main .news-item .content .title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 7px;
+}
+#page-main .news-item .content .time {
+  font-size: 12px;
+  color: #8f8f8f;
+}
+#page-main .news-item .content .time a {
+  color: #0ca8c9;
 }
 @media all and (max-width: 1170px) {
   #menubar .menubar-info .dropdown-content {
@@ -762,6 +815,18 @@ body {
   #main-content #page-main .top-selling-item .content .cost {
     font-size: 11px;
   }
+  #main-content #page-main .news .item-center {
+    justify-content: center;
+  }
+  #main-content #page-main .news-hot {
+    padding-bottom: 50px;
+  }
+  #main-content #page-main .news-item {
+    width: calc(6 * 100% / 12);
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 15px 0;
+  }
 }
 @media all and (max-width: 768px) {
   #header .header-top-inner .language .arrow-icon {
@@ -818,6 +883,18 @@ body {
   }
   #main-content #page-main .top-selling-item {
     width: calc(6 * 100% / 12);
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 15px 0;
+  }
+  #main-content #page-main .news-hot {
+    font-size: 70px;
+  }
+  #main-content #page-main .news-latest {
+    font-size: 36px;
+  }
+  #main-content #page-main .news-item {
+    width: calc(12 * 100% / 12);
     box-sizing: border-box;
     padding: 0 15px;
     margin: 15px 0;
@@ -895,6 +972,12 @@ body {
   #main-content #page-main .top-selling-title {
     font-size: 26px;
   }
+  #main-content #page-main .news-hot {
+    font-size: 50px;
+  }
+  #main-content #page-main .news-latest {
+    font-size: 26px;
+  }
 }
 @media all and (max-width: 375px) {
   #header .header-bot-inner .form-control .search-sl {
@@ -933,11 +1016,17 @@ body {
   #main-content #page-main .top-selling-title {
     font-size: 22px;
   }
-  #main-content #page-main .top-selling-item {
-    width: calc(12 * 100% / 12);
-    box-sizing: border-box;
-    padding: 0 15px;
-    margin: 15px 0;
+  #main-content #page-main .news-hot {
+    font-size: 40px;
+  }
+  #main-content #page-main .news-latest {
+    font-size: 22px;
+  }
+  #main-content #page-main .news-item .content .title {
+    font-size: 12px;
+  }
+  #main-content #page-main .news-item .content .time {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

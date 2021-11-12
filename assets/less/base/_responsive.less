@@ -166,6 +166,18 @@
                     }
                 }
             }
+            .news {
+                .item-center {
+                    justify-content: center;
+                }
+                &-hot {
+                    padding-bottom: 50px;
+                }
+                &-item {
+                    .cols(6);
+                }
+                
+            }
         }
     }
 }
@@ -252,6 +264,17 @@
                 }
                 &-item {
                     .cols(6);
+                }
+            }
+            .news {
+                &-hot {
+                    font-size: 70px;
+                }
+                &-latest {
+                    font-size: 36px;
+                }
+                &-item {
+                    .cols(12);
                 }
             }
         }
@@ -364,6 +387,14 @@
                     font-size: 26px;
                 }
             }
+            .news {
+                &-hot {
+                    font-size: 50px;
+                }
+                &-latest {
+                    font-size: 26px;
+                }
+            }
         }
     }
 }
@@ -442,8 +473,23 @@
                 &-title {
                     font-size: 22px;
                 }
+            }
+            .news {
+                &-hot {
+                    font-size: 40px;
+                }
+                &-latest {
+                    font-size: 22px;
+                }
                 &-item {
-                    .cols(12);
+                    .content {
+                        .title {
+                            font-size: 12px;
+                        }
+                        .time {
+                            font-size: 10px;
+                        }
+                    }
                 }
             }
         }
