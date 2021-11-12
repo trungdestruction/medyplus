@@ -705,6 +705,78 @@ body {
 #page-main .news-item .content .time a {
   color: #0ca8c9;
 }
+#page-main .news-letter {
+  background-color: #222;
+  text-align: center;
+  padding-top: 89px;
+  padding-bottom: 98px;
+}
+#page-main .news-letter-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+#page-main .news-letter-detail {
+  font-size: 14px;
+  font-weight: 500;
+  color: #bababa;
+  padding-top: 12px;
+  padding-bottom: 60px;
+}
+#page-main .news-letter .form-control {
+  display: flex;
+  justify-content: center;
+}
+#page-main .news-letter .form-control .form-input {
+  width: 770px;
+}
+#page-main .news-letter .form-control .form-input form {
+  height: 68px;
+  border: 1px solid #fff;
+  border-radius: 70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#page-main .news-letter .form-control .form-input form .email-input {
+  flex: 1;
+  line-height: 68px;
+}
+#page-main .news-letter .form-control .form-input form .email-input input {
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 400;
+  color: #bababa;
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin: 0 20px;
+  padding: 0 10px;
+}
+#page-main .news-letter .form-control .form-input form .email-input input::placeholder {
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 400;
+  color: #bababa;
+}
+#page-main .news-letter .form-control .form-input form .email-btn {
+  margin-right: 7px;
+}
+#page-main .news-letter .form-control .form-input form .email-btn button {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  height: 58px;
+  line-height: 58px;
+  background-color: #0ca8c9;
+  padding: 0 55px;
+  border-radius: 58px;
+}
 @media all and (max-width: 1170px) {
   #menubar .menubar-info .dropdown-content {
     width: 97%;
@@ -899,6 +971,12 @@ body {
     padding: 0 15px;
     margin: 15px 0;
   }
+  #main-content #page-main .news-letter-title {
+    font-size: 26px;
+  }
+  #main-content #page-main .news-letter-detail {
+    font-size: 12px;
+  }
 }
 @media all and (max-width: 576px) {
   #header .header-bot-inner .form-control .search-sl {
@@ -978,6 +1056,23 @@ body {
   #main-content #page-main .news-latest {
     font-size: 26px;
   }
+  #main-content #page-main .news-letter-title {
+    font-size: 22px;
+  }
+  #main-content #page-main .news-letter-detail {
+    font-size: 10px;
+  }
+  #main-content #page-main .news-letter .form-control .form-input form {
+    height: 60px;
+  }
+  #main-content #page-main .news-letter .form-control .form-input form .email-input input {
+    height: 40px;
+  }
+  #main-content #page-main .news-letter .form-control .form-input form .email-btn button {
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+  }
 }
 @media all and (max-width: 375px) {
   #header .header-bot-inner .form-control .search-sl {
@@ -1027,6 +1122,25 @@ body {
   }
   #main-content #page-main .news-item .content .time {
     font-size: 10px;
+  }
+  #main-content #page-main .news-letter-title {
+    font-size: 19px;
+  }
+  #main-content #page-main .news-letter .form-control .form-input form {
+    height: 50px;
+  }
+  #main-content #page-main .news-letter .form-control .form-input form .email-input input {
+    height: 35px;
+    font-size: 10px;
+  }
+  #main-content #page-main .news-letter .form-control .form-input form .email-input input::placeholder {
+    font-size: 10px;
+  }
+  #main-content #page-main .news-letter .form-control .form-input form .email-btn button {
+    font-size: 12px;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */

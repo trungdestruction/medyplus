@@ -254,4 +254,74 @@
             }
         }
     }
+    .news-letter {
+        background-color: @second-color;
+        text-align: center;
+        padding-top: 89px;
+        padding-bottom: 98px;
+        &-title {
+            font-size: 32px;
+            font-weight: 600;
+            color: #fff;
+            letter-spacing: -0.01em;
+        }
+        &-detail {
+            font-size: 14px;
+            font-weight: 500;
+            color: @color-bababa;
+            padding-top: 12px;
+            padding-bottom: 60px;
+        }
+        .form-control {
+            display: flex;
+            justify-content: center;
+            .form-input {
+                width: 770px;
+                form {
+                    height: 68px;
+                    border: 1px solid #fff;
+                    border-radius: 70px;
+                    background-color: #fff;
+                    .flex-between();
+                    .email-input {
+                        flex: 1;
+                        line-height: 68px;
+                        input {
+                            font-family: 'Poppins';
+                            font-size: 13px;
+                            font-weight: 400;
+                            color: @color-bababa;
+                            width: 100%;
+                            border: none;
+                            height: 50px;
+                            margin: 0 20px;
+                            padding: 0 10px;
+                            &::placeholder {
+                                font-family: 'Poppins';
+                                font-size: 13px;
+                                font-weight: 400;
+                                color: @color-bababa;
+                            }
+                        }
+                    }
+                    .email-btn {
+                        margin-right: 7px;
+                        button {
+                            font-family: 'Poppins';
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #fff;
+                            text-transform: uppercase;
+                            border: none;
+                            height: 58px;
+                            line-height: 58px;
+                            background-color: @main-color;
+                            padding: 0 55px;
+                            border-radius: 58px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

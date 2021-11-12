@@ -277,6 +277,14 @@
                     .cols(12);
                 }
             }
+            .news-letter {
+                &-title {
+                    font-size: 26px;
+                }
+                &-detail {
+                    font-size: 12px;
+                }
+            }
         }
     }
 }
@@ -395,6 +403,33 @@
                     font-size: 26px;
                 }
             }
+            .news-letter {
+                &-title {
+                    font-size: 22px;
+                }
+                &-detail {
+                    font-size: 10px;
+                }
+                .form-control {
+                    .form-input {
+                        form {
+                            height: 60px;
+                            .email-input {
+                                input {
+                                    height: 40px;
+                                }
+                            }
+                            .email-btn {
+                                button {
+                                    padding: 0 20px;
+                                    height: 50px;
+                                    line-height: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -488,6 +523,35 @@
                         }
                         .time {
                             font-size: 10px;
+                        }
+                    }
+                }
+            }
+            .news-letter {
+                &-title {
+                    font-size: 19px;
+                }
+                .form-control {
+                    .form-input {
+                        form {
+                            height: 50px;
+                            .email-input {
+                                input {
+                                    height: 35px;
+                                    font-size: 10px;
+                                    &::placeholder {
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+                            .email-btn {
+                                button {
+                                    font-size: 12px;
+                                    padding: 0 15px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                }
+                            }
                         }
                     }
                 }
