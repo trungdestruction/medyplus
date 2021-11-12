@@ -1,0 +1,169 @@
+#page-main {
+    .strength {
+        height: 163px;
+        display: flex;
+        align-items: center;
+        margin-bottom: -15px;
+        .strength-item {
+            .cols(3);
+            display: flex;
+            .strength-title {
+                padding-left: 19px;
+                .title {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #000;
+                }
+                
+                .sub-title {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: @color-8f8f8f;
+                }
+            }
+        }
+    }
+    .banner {
+        span {
+            color: @main-color;
+        }
+        .title {
+            font-weight: 600;
+            font-size: 30px;
+            color: #000;
+            text-transform: uppercase;
+        }
+        .sub-title {
+            font-size: 18px;
+            font-weight: 400;
+            color: #b8b8b8;
+        }
+        &-left {
+            &-info {
+                height: 100%;
+            }
+            .cols(7);
+            position: relative;
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+            &-detail {
+                position: absolute;
+                top: 63.5%;
+                right: 50%;
+                .transform(translateX(50%));
+                text-align: center;
+                .countdown {
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 22px;
+                    .time {
+                        width: 60px;
+                        height: 62px;
+                        background-color: #fff;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        margin: 0 5px;
+                        font-size: 12px;
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                    }
+                    span {
+                        font-size: 21px;
+                        width: 100%;
+                        margin-top: 8px;
+                        margin-bottom: -16px;
+                    }
+                }
+                .content {
+                    line-height: 35px;
+                }
+            }
+        }
+        &-right {
+            .banner-col {
+                margin: -15px 0;
+            }
+            .cols(5);
+            &-item {
+                position: relative;
+                padding: 15px 0;
+                img {
+                    display: block;
+                    width: 100%;
+                }
+                .content {
+                    position: absolute;
+                    top: 50%;
+                    .transform(translateY(-50%));
+                    padding-left: 30px;
+                    .sale-num {
+                        font-weight: 600;
+                        font-size: 60px;
+                        line-height: 49px;
+                    }
+                    .sale-title {
+                        font-weight: 500;
+                        font-size: 24px;
+                    }
+                    .access-title {
+                        line-height: 26px;
+                        padding-bottom: 6px;
+                    }
+                }
+            }
+        }
+    }
+    .top-selling {
+        &-products {
+            text-transform: uppercase;
+            font-size: 90px;
+            font-weight: 600;
+            color: #f5f5f5;
+            position: relative;
+            line-height: 150px;
+        }
+        &-title {
+            font-size: 42px;
+            color: #000;
+            position: absolute;
+            top: 0;
+            letter-spacing: 0.01em;
+        }
+        &-list {
+            margin: -11px 0;
+        }
+        &-item {
+            .cols(3);
+            margin: 27px 0;
+            img {
+                width: 100%;
+            }
+            .content {
+                font-weight: 600;
+                text-align: center;
+                .title {
+                    font-size: 14px;
+                    color: #000;
+                    letter-spacing: 0.02em;
+                    line-height: 23px;
+                    padding-top: 10px;
+                    padding-bottom: 6px;
+                }
+                .cost {
+                    font-size: 13px;
+                    color: @main-color;
+                }
+                span {
+                    color: #696969;
+                    text-decoration: line-through;
+                    padding-right: 12px;
+                }
+            }
+        }
+    }
+}
