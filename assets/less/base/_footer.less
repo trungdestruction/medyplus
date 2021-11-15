@@ -1,0 +1,96 @@
+#footer {
+    letter-spacing: 0.01em;
+    .footer-top {
+        background-color: #f2f2f2;
+        a {
+            font-size: 13px;
+            font-weight: 500;
+            color: @color-8f8f8f;
+            &:hover {
+                color: @main-color;
+            }
+        }
+        .title {
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding-top: 38px;
+            padding-bottom: 8px;
+        }
+        .contact {
+            .cols(3);
+            .title {
+                padding-bottom: 11px;
+            }
+            .info {
+                display: flex;
+                padding: 4px 0;
+                .phone-icon {
+                    i {
+                        vertical-align: top;
+                        margin-left: 2px;
+                    }
+                }
+                .mail-icon {
+                    padding-right: 20px;
+                }
+            }
+            &-icon {
+                color: @main-color;
+                padding-right: 24px;
+                i {
+                    vertical-align: middle;
+                }
+            }
+            &-text {
+                word-break: break-all;
+                line-height: 20px;
+            }
+            .social-icon {
+                padding-top: 23px;
+                padding-bottom: 44px;
+                a {
+                    padding-right: 20px;
+                }
+            }
+        }
+        .space {
+            .cols(1);
+        }
+        &-item {
+            .cols(2);
+            a {
+                display: block;
+                line-height: 36px;
+                
+            }
+        }
+    }
+    .footer-bot {
+        &-inner {
+            .flex-between();
+        }
+        &-left {
+            font-size: 12px;
+            font-weight: 500;
+            color: @color-8f8f8f;
+            padding: 25px 0;
+            letter-spacing: 0.006em;
+            span {
+                color: @main-color;
+            }
+        }
+        &-right {
+            margin-right: -14px;
+            display: flex;
+            align-items: center;
+            .icon {
+                padding: 0 14px;
+                img {
+                    width: 48px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
